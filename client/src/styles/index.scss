@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f4f8ff;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+    color: #202057;
+}
+
+._container {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 60px 20px 20px 20px;
+
+    display: flex;
+}
+._container2 {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 60px 20px 20px 20px;
+}
+
+.main {
+    flex: 1 1 auto;
+    padding: 0 60px;
+}
+
+/* COMMENTS */
+
+
+/** COMMENT **/
+
+
+/* FORM (COMMENT) */
+
+
+/* FEEDBACK ITEM ROADMAPS */
+.lists-container {
+    display: flex;
+    column-gap: 50px;
+}
+.roadmap-list {
+    flex: 1;
+}
+.roadmap-list__title {
+    margin-bottom: 8px;
+
+    font-size: 24px;
+    font-weight: 700;
+}
+.roadmap-list__text {
+    margin-bottom: 32px;
+    color: #85848d;
+}
+
+.roadmaps-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.roadmap-item {
+    padding: 30px 20px 20px 30px;
+    background-color: #ffffff;
+    border-top: 12px solid #7e1dbe;
+    border-radius: 10px;
+}
+.roadmap-item__row {
+    margin-bottom: 16px;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    color: #85848d;
+}
+.roadmap-item__circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+
+    background-color: #7e1dbe;
+}
+.roadmap-item__title {
+    margin-bottom: 14px;
+
+    font-size: 24px;
+    font-weight: 700;
+}
+.roadmap-item__detail {
+    margin-bottom: 16px;
+
+    color: #85848d;
+}
+.roadmap-item__category {
+    margin-bottom: 40px;
+
+    display: inline-flex;
+
+    padding: 10px 20px;
+    background-color: #eaf2ff;
+    border-radius: 12px;
+
+    font-weight: 500;
+
+    color: #1c1cee;
+}
+.roadmap-item__other {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.roadmap-item__upvote {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px;
+    background-color: #eaf2ff;
+    border-radius: 12px;
+
+    font-weight: 500;
+}
+.roadmap-item__arrow {
+    font-weight: 700;
+    
+    color: #1c1cee;
+
+    transform: rotate(-90deg);
+}
+.roadmap-item__countcomments {
+    font-weight: 500;
+    font-size: 24px;
+}

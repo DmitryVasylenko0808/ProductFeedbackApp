@@ -1,0 +1,50 @@
+.aside-roadmap {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+
+    &__row {
+        margin-bottom: 20px;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    &__link {
+        text-decoration: underline;
+        color: #1c1cee;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+    &__circle {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+    
+        background-color: #7e1dbe;
+    }
+    &__text {
+        flex: 1 1 auto;
+    
+        padding: 0 20px;
+    }
+    &__count {
+        font-weight: 700;
+        font-size: 24px;
+    
+        color: #9c9c9c;
+    }
+}

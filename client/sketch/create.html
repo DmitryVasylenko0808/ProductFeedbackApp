@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Feedback App</title>
+</head>
+
+<body>
+    <div class="_container2">
+        <div class="menu _inner _form">
+            <button class="menu__back"><span class="menu__arrowback">></span> Go Back</button>
+        </div>
+        <form class="form">
+            <div class="form__circle"></div>
+            <div class="form__title">Create New Feedback</div>
+
+            <div class="form__control">
+                <div class="form__label">Feedback Title</div>
+                <div class="form__text">Add a short, descriptive headline</div>
+                <input class="form__input" />
+            </div>
+            <div class="form__control">
+                <div class="form__label">Category</div>
+                <div class="form__text">Choose a category for your feedback</div>
+                <select class="form__select">
+                    <option value="Enhancement">Enhancement</option>
+                </select>
+            </div>
+            <div class="form__control">
+                <div class="form__label">Feedback Detail</div>
+                <div class="form__text">Include any specific comments on what should be improved, added, etc.</div>
+                <textarea class="form__field"></textarea>
+            </div>
+
+            <div class="form__btns">
+                <button class="form__cancelbtn menu__btn">Cancel</button>
+                <button class="form__addbtn menu__btn">Add Feedback</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

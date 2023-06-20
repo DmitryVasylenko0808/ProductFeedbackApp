@@ -1,0 +1,23 @@
+.aside-board {
+    height: 200px;
+    padding: 40px 30px;
+    background: linear-gradient(0.35turn, #4744e6, #7e1dbe, #f69d3c);
+    border-radius: 20px;
+
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+
+    &__box {
+        flex: 1 1 auto;
+    }
+    &__title {
+        margin-bottom: 12px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    &__text {
+        color: #e4e4e4;
+    }
+}

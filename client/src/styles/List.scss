@@ -1,0 +1,18 @@
+.feedbacks {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.comments-list {
+    margin-bottom: 32px;
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.comments-list__count {
+    margin-bottom: 32px;
+
+    font-size: 24px;
+    font-weight: 700;
+}

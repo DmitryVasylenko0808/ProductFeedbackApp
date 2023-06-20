@@ -1,0 +1,104 @@
+.form {
+    padding: 70px 40px 40px 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    
+    position: relative;
+
+    & *:last-child {
+        margin-bottom: 0;
+    }
+    &__title {
+        margin-bottom: 32px;
+    
+        font-size: 24px;
+        font-weight: 700;
+    }
+    &__field, &__input, &__select {
+        width: 100%;
+    
+        margin-bottom: 32px;
+        padding: 20px;
+        background-color: #eaf2ff;
+        border-radius: 15px;
+    
+        font-weight: 400;
+    }
+    &__field {
+        height: 100px;
+    }
+    &__select {
+        appearance: auto;
+        -webkit-appearance: auto;
+    }
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__count {
+        font-weight: 400;
+    
+        color: #85848d;
+    }
+    &__addbtn {
+        background-color: #7e1dbe;
+        border: 1px solid #7e1dbe;
+        color: #ffffff;
+    }
+    &__addbtn:hover {
+        background-color: #ffffff;
+        color: #7e1dbe;
+    }
+    &__cancelbtn {
+        background-color: #202057;
+        border: 1px solid #202057;
+        color: #ffffff;
+    }
+    &__cancelbtn:hover {
+        background-color: #ffffff;
+        color: #202057;
+    }
+    &__control {
+        margin-bottom: 36px;
+    }
+    &__label {
+        margin-bottom: 12px;
+    
+        font-weight: 500;
+    }
+    &__text {
+        margin-bottom: 18px;
+    
+        color: #85848d;
+    }
+    &__circle {
+        height: 80px;
+        width: 80px;
+        background: linear-gradient(0.35turn, #4744e6, #7e1dbe);
+        border-radius: 50%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        position: absolute;
+        top: -40px;
+    }
+    &__btns {
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+    &__question {
+        margin-bottom: 12px;
+
+        display: flex;
+        gap: 6px;
+    }
+    &__link {
+        text-decoration: underline;
+
+        color: #125be0;
+    }
+}

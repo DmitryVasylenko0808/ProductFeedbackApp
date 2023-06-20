@@ -1,0 +1,124 @@
+.menu {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background: #202057;
+
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+.menu._inner {
+    margin-bottom: 14px;
+    background-color: inherit;
+
+    display: flex;
+    justify-content: space-between;
+}
+.menu._roadmap {
+    justify-content: space-between;
+} 
+.menu__box {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.menu._inner._form {
+    margin-bottom: 38px;
+}
+.menu__suggestions {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+/*** SELECT ***/
+.menu__label {
+    flex: 1 1 auto;
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    color: #e4e4e4;
+}
+.menu__sort {
+    padding: 0 10px 0 0;
+    cursor: pointer;
+
+    font-weight: 500;
+
+    color: #ffffff;
+
+    -webkit-appearance: auto;
+    appearance: auto;
+}
+.menu__itemsort {
+    padding: 10px;
+}
+
+/*** BUTTON ***/
+.menu__btn {
+    padding: 15px 25px;
+    border-radius: 10px;
+
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+/*** ADD BUTTON ***/
+.menu__addfeedback {
+    border: 1px solid #7e1dbe;
+    background-color: #7e1dbe;
+}
+.menu__addfeedback:hover {
+    background-color: #ffffff;
+
+    color: #7e1dbe;
+}
+
+/*** EDIT BUTTON ***/
+.menu__editfeedback {
+    border: 1px solid #1c1cee;
+    background-color: #1c1cee; 
+}
+.menu__editfeedback:hover {
+    background-color: #ffffff;
+    color: #1c1cee;
+}
+
+/*** AUTH BUTTON ***/
+.menu__authbtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+
+    color: white;
+}
+
+/*** BACK BUTTON ***/
+.menu__back {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-weight: 700;
+
+    color: #202057;
+}
+.menu__arrowback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    
+    color: #1c1cee;
+
+    transform: rotate(-180deg);
+}
+.menu__back._light, .menu__arrowback._light {
+    color: #e4e4e4;
+}
